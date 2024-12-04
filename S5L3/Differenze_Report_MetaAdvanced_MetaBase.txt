@@ -1,0 +1,38 @@
+
+Differenze tra i report MetaAdvanced (scansione avanzata) e MetaBase (scansione base)
+
+Differenze principali nei dati generali:
+
+- MetaAdvanced:
+  - Numero di vulnerabilità: 208 totali
+  - Tempo scansione: circa 17 minuti.
+  
+- MetaBase:
+  - Numero di vulnerabilità: 40 totali
+  - Tempo scansione: circa 13 minuti
+
+Differenze nelle vulnerabilità maggiori:
+- MetaAdvanced evidenzia un numero maggiore di vulnerabilità critiche e alte rispetto a MetaBase. Alcuni esempi:
+  - CVE legate a versioni di Apache inferiori alla 2.2.15 e 2.4.26.
+  - Debolezze di OpenSSL su sistemi Debian/Ubuntu.
+
+- MetaBase, pur avendo meno vulnerabilità critiche e alte, evidenzia altri problemi significativi:
+  - Configurazione debole di SSL.
+  - Autenticazione VNC con password debole ("password").
+
+
+Analisi del report WindowsXpBase (scansione base)
+
+Informazioni generali:
+
+Host analizzato: 192.168.50.102
+Sistema operativo: Microsoft Windows XP.
+Numero di vulnerabilità rilevate: 7 totali
+Tempo scansione: circa 9 minuti.
+Vulnerabilità maggiori:
+
+- MS08-067: Vulnerabilità di esecuzione remota nel servizio RPC, utilizzabile da exploit come ECLIPSEDWING​1
+- MS17-010: Famoso per gli exploit ETERNALBLUE e WannaCry​
+- SMBv1: Supporto ancora attivo per un protocollo non sicuro​
+- Sistema operativo senza patch dal 2014, altamente vulnerabile​
+
