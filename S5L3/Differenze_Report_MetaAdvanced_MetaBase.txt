@@ -31,7 +31,7 @@ Numero di vulnerabilità rilevate: 7 totali
 Tempo scansione: circa 9 minuti.
 Vulnerabilità maggiori:
 
-- MS08-067: Vulnerabilità di esecuzione remota nel servizio RPC, utilizzabile da exploit come ECLIPSEDWING​1
+- MS08-067: Vulnerabilità di esecuzione remota nel servizio RPC, utilizzabile da exploit come ECLIPSEDWING​
 - MS17-010: Famoso per gli exploit ETERNALBLUE e WannaCry​
 - SMBv1: Supporto ancora attivo per un protocollo non sicuro​
 - Sistema operativo senza patch dal 2014, altamente vulnerabile​
