@@ -1,0 +1,57 @@
+Strategie per difendersi dagli attacchi di social engineering:
+
+1. Formazione e sensibilizzazione
+- Descrizione: Educare i dipendenti e gli utenti su cosa sia il social engineering, sulle tecniche utilizzate dagli attaccanti e sui segnali di allarme.
+- Esempi di segnali: Email sospette, richieste urgenti di informazioni, offerte "troppo belle per essere vere".
+- Come implementare: Programmi di formazione regolari, simulazioni di phishing e materiali educativi.
+
+2. Verifica dell'identità
+- Descrizione: Non fidarsi ciecamente di richieste ricevute via email, telefono o di persona. Verificare sempre l'identità del richiedente.
+- Esempi pratici:
+  - Telefonare direttamente all'azienda o all'individuo per confermare una richiesta.
+  - Non condividere mai password o dati sensibili senza una verifica adeguata.
+
+3. Uso di strumenti di sicurezza
+- Software Anti-phishing: Installare filtri email e browser che identificano e bloccano tentativi di phishing.
+- Autenticazione a più fattori (MFA): Protegge gli account anche se le credenziali vengono compromesse.
+- Aggiornamenti di sicurezza: Mantenere sistemi e software aggiornati per evitare che vulnerabilità tecniche vengano sfruttate.
+
+4. Politiche aziendali
+- Regole per la gestione delle informazioni sensibili:
+  - Evitare di condividere dati personali via email o telefono senza autorizzazione.
+  - Utilizzare canali sicuri per lo scambio di informazioni (es. strumenti di crittografia).
+- Accesso fisico: 
+  - Implementare badge elettronici, chiusure automatiche delle porte e monitoraggio degli accessi.
+
+5. Consapevolezza dei segnali di manipolazione
+Gli attaccanti sfruttano psicologia e emozioni. Essere preparati a riconoscere questi tentativi aiuta a difendersi:
+- Tecniche di pressione: Urgenza ("Agisci subito!").
+- Offerte incredibili: Troppo belle per essere vere.
+- Errori evidenti: Email con errori grammaticali o indirizzi email insoliti.
+
+6. Minimizzazione delle informazioni pubbliche
+- Descrizione: Ridurre le informazioni personali disponibili online, come su social media o siti web pubblici.
+- Perché è utile: Gli attaccanti possono usare questi dati per personalizzare attacchi (es. spear phishing o pretexting).
+
+7. Regole chiare per la gestione delle richieste
+- Descrizione: Stabilire procedure precise per gestire richieste di informazioni o azioni.
+- Esempio:
+  - Ogni richiesta sensibile deve essere approvata da più persone.
+  - Nessuno deve mai chiedere password o credenziali, nemmeno il personale IT.
+
+8. Uso di sistemi di monitoraggio
+- Descrizione: Implementare strumenti che monitorano attività sospette su reti e sistemi.
+- Esempio: Identificare e bloccare un accesso non autorizzato o un comportamento anomalo.
+
+9. Politiche di gestione dei rifiuti
+- Descrizione: Eliminare documenti e dispositivi in modo sicuro per evitare il "dumpster diving".
+- Come fare:
+  - Distruggere fisicamente documenti sensibili.
+  - Utilizzare software per cancellare i dati da dispositivi elettronici.
+
+10. Praticare il principio del “least privilege”
+- Descrizione: Limitare l'accesso ai dati e ai sistemi solo alle persone che ne hanno bisogno per il proprio lavoro.
+- Beneficio: Anche se un attaccante compromette un account, il danno sarà limitato.
+
+Conclusione:
+La difesa dal social engineering richiede non solo misure tecniche ma anche una cultura della sicurezza in cui tutti gli utenti siano consapevoli dei rischi. L'implementazione di queste strategie può ridurre notevolmente il rischio di cadere vittima di attacchi.

@@ -1,0 +1,49 @@
+CVE relativi a Windows 11 e Dettagli
+Ecco un riepilogo delle vulnerabilità (CVE) più rilevanti per Windows 11 identificate nel 2024, con spiegazioni e consigli per la mitigazione:
+
+1. CVE-2024-38063: Vulnerabilità RCE nella gestione TCP/IP con IPv6
+Gravità: Critica (CVSS 9.8)
+Descrizione: Un errore di underflow nell'elaborazione dei pacchetti IPv6 da parte dello stack TCP/IP di Windows consente a un attaccante remoto di eseguire codice arbitrario senza interazione dell'utente. Questo problema rappresenta una vulnerabilità "zero-click".
+Versioni colpite: Windows 10, Windows 11 e diverse versioni di Windows Server.
+Mitigazioni:
+Installare subito gli aggiornamenti di sicurezza disponibili tramite Windows Update.
+Disabilitare temporaneamente IPv6 se gli aggiornamenti non possono essere applicati (nota: ciò potrebbe interferire con i servizi di rete che usano IPv6).
+Monitorare eventuali traffici IPv6 anomali nella rete.
+Fonte: 
+ORCA SECURITY
+ps://orca.security/resources/blog/mitigate-cve-2024-38063-critical-rce-vulnerability-windows-ipv6/).
+
+2. CVE-2024-43574: Vulnerabilità RCE nell'API Microsoft Speech
+Gravità: Alta (CVSS 8.3)
+Descrizione: Un puntatore sospeso nell'API Microsoft Speech consente l'esecuzione di codice remoto. Gli attaccanti possono sfruttare questa vulnerabilità per prendere il controllo del sistema.
+Mitigazioni: 
+STACK WATCH
+tch forniti da Microsoft nel ciclo di aggiornamenti di ottobre 2024.
+Fonte: Stack.watch.
+
+3. CVE-2024-43599: Vulnerabilità nel client Remote Desktop
+Gravità: Alta (CVSS 8.8)
+Descrizione: Un puntatore sospeso nel client Remote Desktop consente l'esecuzione di codice remoto. Un attaccante potrebbe ottene​
+STACK WATCH
+torizzato al sistema colpito.
+Mitigazioni:
+Aggiornare il client Remote Desktop alla versione più recente.
+Fonte: Stack.watch.
+
+4. CVE-2024-38199: Vulnerabilità RCE nel servizio LPD
+Gravità: Critica (CVSS 9.8)
+Descrizione: Una vulnerabilità nel servizio Line Printer Daemon (LPD) può portare all'esecuzione di codice remoto, rappresentando un rischio 
+ENTERPRISE TECHNOLOGY NEWS AND ANALYSIS
+gli ambienti di rete.
+Mitigazioni:
+Disabilitare il servizio LPD se non è necessario.
+Installare gli aggiornamenti più recenti forniti da Microsoft.
+Fonte: The Register.
+
+Raccomandazioni Generali per la Protezione
+Aggiornamenti regolari: Mantieni Windows aggiornato tramite Windows Update per garantire protezione contro vulnerabilità note.
+Monitoraggio attivo: Utilizza strumenti di monitoraggio per identificare attività sospette nella rete.
+Segmentazione della rete: Isola i sistemi critici per ridurre il rischio di compromissione.
+Educazione degli utenti: Informa i dipendenti sui rischi legati a email di phishing e altre tecniche di social engineering.
+Protezione degli endpoint: Installa software di sicurezza avanzato per prevenire exploit.
+Questi passi riducono significativamente il rischio di sfruttamento delle vulnerabilità fino all'applicazione di patch complete. Per ulteriori dettagli, consulta il Microsoft Security Response Center.

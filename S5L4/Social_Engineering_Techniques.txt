@@ -1,0 +1,47 @@
+Domanda: 
+Potresti spiegare cos'è il social engineering e descrivere le tecniche più comuni utilizzate dagli attaccanti, come phishing e tailgating?
+
+Risposta:
+Il social engineering è una pratica utilizzata da malintenzionati per manipolare le persone al fine di ottenere informazioni riservate, accesso a sistemi o risorse, o indurle a compiere azioni che compromettono la sicurezza. Gli attacchi di social engineering sfruttano la psicologia umana, come il senso di urgenza, fiducia o curiosità, piuttosto che vulnerabilità tecniche.
+
+Tecniche più comuni di social engineering:
+
+1. Phishing
+Il phishing è una delle tecniche più diffuse. Consiste nell'invio di comunicazioni fraudolente, spesso via email, che sembrano provenire da fonti affidabili. 
+- Obiettivo: Rubare informazioni sensibili (password, numeri di carte di credito) o indurre l'utente a cliccare su link malevoli o scaricare malware.
+- Esempi comuni:
+  - Email che simulano istituzioni bancarie, richiedendo aggiornamenti dei dati personali.
+  - Messaggi che contengono allegati dannosi spacciati per documenti ufficiali.
+  - Siti web falsi che imitano quelli reali (es. pagine di login).
+
+2. Smishing e Vishing
+Varianti del phishing che utilizzano:
+- Smishing: SMS fraudolenti per convincere l'utente a cliccare su link dannosi.
+- Vishing: Chiamate telefoniche ingannevoli, spesso da falsi rappresentanti aziendali, per ottenere dati sensibili.
+
+3. Tailgating
+Il tailgating, o "piggybacking," consiste nel seguire fisicamente una persona autorizzata per accedere a un'area riservata senza avere le credenziali necessarie.
+- Esempio: Un attaccante si avvicina a una porta con badge elettronico e chiede a qualcuno di tenerla aperta, fingendo di aver dimenticato il proprio badge.
+
+4. Pretexting
+In questa tecnica, l'attaccante si presenta con una falsa identità per ottenere informazioni sensibili. Spesso si basa su una storia costruita ad hoc (pretesto) per sembrare convincente.
+- Esempio: Un truffatore che si spaccia per un tecnico IT e chiede le credenziali di accesso.
+
+5. Baiting
+Il baiting attira le vittime offrendo loro qualcosa di desiderabile (una "esca") per indurle a scaricare malware o a rivelare informazioni.
+- Esempio: Lasciare una chiavetta USB infetta in un luogo visibile, sperando che qualcuno la inserisca nel proprio computer.
+
+6. Quid Pro Quo
+Un attaccante offre un servizio o un beneficio in cambio di informazioni o accesso.
+- Esempio: Una falsa offerta di supporto tecnico in cui l’attaccante chiede di disabilitare funzioni di sicurezza.
+
+7. Dumpster Diving
+Gli attaccanti cercano informazioni sensibili (es. password, documenti aziendali) tra i rifiuti aziendali o personali.
+
+Come difendersi dal social engineering:
+1. Educazione e consapevolezza: Imparare a riconoscere i segnali di tentativi di phishing o altre tecniche.
+2. Verifica delle richieste: Controllare sempre la legittimità di una richiesta, specialmente quando proviene da una fonte non familiare.
+3. Uso di strumenti di sicurezza: Software anti-phishing, filtri per email e sistemi di autenticazione a più fattori (MFA).
+4. Politiche aziendali: Implementare procedure rigorose per l'accesso fisico e digitale.
+
+Queste tecniche dimostrano come gli attaccanti facciano leva sulla fiducia e sulla distrazione delle persone, rendendo fondamentale la prevenzione attraverso l'educazione e la vigilanza.
